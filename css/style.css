@@ -98,21 +98,25 @@ li a{
 }
 
 
-
+/* Content */
 .content{
-    background-color: blue;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
+/* Top */
 .content-top{
     height: 65px;
-    margin-bottom: 1.5em;
-    background-color: rgb(0, 132, 255);
-    margin-bottom: 1.5em;
 }
+.content-top h2{
+    font-weight: bolder;
+}
+.content-top p{
+    font-size: 0.8em;
+    color: gray;
+}
+
+/* Bottom */
 .col{
-    height: 400px;
     margin-bottom: 20px;
-    background-color: rgb(0, 132, 255);
     float: left;
 }
 .col-side{
@@ -121,6 +125,24 @@ li a{
 .col-center{
     width: 46%;
     margin: 0 2%;
+}
+.content-img-box{
+    position: relative;
+    height: 200px;
+    
+}
+.content-img{
+    height: 100%;
+    object-fit: cover;
+}
+.content-text{
+    padding-top: 1em;
+}
+.content-text p, .content-text h3{
+    padding: inherit;
+}
+.content-text p{
+    color: grey;
 }
 
 /* footer */
