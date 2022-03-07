@@ -4,13 +4,11 @@
     box-sizing: border-box;
 
 }
-/* Debug */
-
-
 
 /* Common */
 html{
-     font-size: 62,5%; /* 100%=16px */
+    font-family: "Montserrat", sans-serif;
+    font-size: 62,5%; /* 100%=16px */
      /* 62.5%=10px */
 }
 
@@ -23,13 +21,37 @@ html{
     height: 800px; */
 
 }
+img{
+    width: 100%;
+}
+
 
 /* Header */
 header{
-    height: 100px;
-    background-color: violet;
     margin-bottom: 1.5em;
 }
+.header-logo{
+    width: auto;
+    height: 60px;
+    padding-right: 1em;
+    border-right: 1px solid lightgray;
+    margin-bottom: 2em;
+}
+.header-nav{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:inherit;
+}
+.header-nav li{
+    display: inline-block;
+    padding-right: .3em;
+    color: grey;   
+}
+
 
 /* Main */
 
